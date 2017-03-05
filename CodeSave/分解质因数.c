@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int pan_duan(int x)
 {
@@ -11,7 +11,7 @@ int pan_duan(int x)
 			flag = 0;
 		}
 	}
-	return flag;         //flag=1ÎªËØÊı
+	return flag;         //flag=1ä¸ºç´ æ•°
 }
 
 void fen_jie(int shu)

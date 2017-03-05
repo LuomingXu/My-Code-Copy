@@ -1,19 +1,19 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
-//Êı×é¼òÒ×Ó¦ÓÃ³õÌ½;Êı×éÔ½½ç£¬int i[10]; i[9]=1; i[9]ÒÑÊÇ×îºóµÄÊı×é£¬ÒòÎªÊÇ´Ó0¿ªÊ¼ÊıÆğ¡£sizeof(a)/size(a[0])¼´ÎªÊı×éÔªËØ¸öÊı
+//æ•°ç»„ç®€æ˜“åº”ç”¨åˆæ¢;æ•°ç»„è¶Šç•Œï¼Œint i[10]; i[9]=1; i[9]å·²æ˜¯æœ€åçš„æ•°ç»„ï¼Œå› ä¸ºæ˜¯ä»0å¼€å§‹æ•°èµ·ã€‚sizeof(a)/size(a[0])å³ä¸ºæ•°ç»„å…ƒç´ ä¸ªæ•°
 
 int main()
 {
 	int x = 0;
 	double sum = 0;
 	int cnt = 0;
-	int number[100];//¶¨ÒåÊı×é
+	int number[100];//å®šä¹‰æ•°ç»„
 
 	scanf_s("%d", &x);
 
 	while (x != -1)
 	{
-		number[cnt] = x;//¶ÔÊı×éÖĞµÄÊı¸³Öµ
+		number[cnt] = x;//å¯¹æ•°ç»„ä¸­çš„æ•°èµ‹å€¼
 		sum += x;
 		cnt++;
 		scanf_s("%d", &x);
@@ -25,9 +25,9 @@ int main()
 		int i;
 		for (i = 0; i < cnt; i++)
 		{
-			if (number[i] > sum/cnt)//Ê¹ÓÃÊı×éÖĞµÄÊı
+			if (number[i] > sum/cnt)//ä½¿ç”¨æ•°ç»„ä¸­çš„æ•°
 			{
-				printf("%d\n", number[i]);//±éÀúÊı×é
+				printf("%d\n", number[i]);//éå†æ•°ç»„
 			}
 		}
 	}

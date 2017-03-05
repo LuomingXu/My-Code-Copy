@@ -1,5 +1,5 @@
-#include<stdio.h>
-//ÇóµÚn¸öËØÊıµ½µÚm¸öµÄºÍ,ÍâÒıflag×öÅĞ¶Ï
+ï»¿#include<stdio.h>
+//æ±‚ç¬¬nä¸ªç´ æ•°åˆ°ç¬¬mä¸ªçš„å’Œ,å¤–å¼•flagåšåˆ¤æ–­
 
 int main()
 {
@@ -9,7 +9,7 @@ int main()
 		int n;
 		int m;
 	
-		printf("ÇëÊäÈën£¬m¡£\n");
+		printf("è¯·è¾“å…¥nï¼Œmã€‚\n");
 		scanf_s("%d %d", &n, &m);
 			
 	for (int i = 2; count < m; i++) 
@@ -32,7 +32,7 @@ int main()
 			}
 		}
 	}
-		printf("ºÍÎª%d\n", sum);
+		printf("å’Œä¸º%d\n", sum);
 
 	return 0;
 }

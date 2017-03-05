@@ -1,6 +1,6 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
-//Àý2.4
+//ä¾‹2.4
 int main()
 {
 	double sign = -1.0;

@@ -1,14 +1,14 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include<time.h>
 #include<Windows.h>
 
-//¶àÏîÊ½ÊäÈë£¬Êä³ö
+//å¤šé¡¹å¼è¾“å…¥ï¼Œè¾“å‡º
 int another(void);
 int main(void)
 {
 	int array[100][2], num = 0, count = -1, sum = 0, o = 0;
 	int collum = 2;
-	//ÊäÈë
+	//è¾“å…¥
 	for (int i = 0; num != -1; i++)
 	{
 		for (int j = 0; j < 2; j++)
@@ -41,12 +41,12 @@ int main(void)
 		else if (array[i][0] == 0)
 		printf("%d\n", sum);*/
 	}
-	//ÅÅĞò,¶şÎ¬Êı×éÒÔµÚÒ»ÁĞÅÅĞò£¬Í¬Ê±½»»»ÆäÓàËùÓĞÁĞ
+	//æ’åº,äºŒç»´æ•°ç»„ä»¥ç¬¬ä¸€åˆ—æ’åºï¼ŒåŒæ—¶äº¤æ¢å…¶ä½™æ‰€æœ‰åˆ—
 	for (int j = 0; j < count; j++)
 		for (int i = 0; i < count - 1 - j; i++)
 			if (array[i][0] < array[i + 1][0])
 			{
-				/*				o = array[i][0];							Ô­Ê¼Ò»¸ö¸öÀ´µÄ³ÌĞò
+				/*				o = array[i][0];							åŸå§‹ä¸€ä¸ªä¸ªæ¥çš„ç¨‹åº
 				array[i][0] = array[i + 1][0];
 				array[i + 1][0] = o;
 
@@ -60,7 +60,7 @@ int main(void)
 					array[i + 1][c] = o;
 				}
 			}
-	//Êı×éÊä³ö
+	//æ•°ç»„è¾“å‡º
 	/*for (int i = 0; i < count; i++)
 	{
 	for (int j = 0; j < 2; j++)
@@ -78,7 +78,7 @@ int main(void)
 	}
 	return 0;
 }
-//ÉÏÌâ¸Ä
+//ä¸Šé¢˜æ”¹
 int another(void)
 {
 	int array[100][2], num = 0, count = -1, sum = 0, o = 0, stop = 0;

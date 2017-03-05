@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main()
 {
@@ -6,7 +6,7 @@ int main()
 	int first=0;
 	int t=0;
 
-	printf("ÇëÊäÈëÒ»¸öÈıÎ»Êı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªä¸‰ä½æ•°ï¼š");
 	scanf_s("%d", &x);
 
 	first = x % 10;

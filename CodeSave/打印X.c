@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include<time.h>
 #include<Windows.h>
 
-//ÓÃÊı×éÀ´×ö£¬½²ĞèÒª´òÓ¡µÄÈ«²¿ÉèÎª1£¬´òÓ¡¿Õ¸ñµÄÎª0£¬ÔÚÅĞ¶Ï01À´´òÓ¡
+//ç”¨æ•°ç»„æ¥åšï¼Œè®²éœ€è¦æ‰“å°çš„å…¨éƒ¨è®¾ä¸º1ï¼Œæ‰“å°ç©ºæ ¼çš„ä¸º0ï¼Œåœ¨åˆ¤æ–­01æ¥æ‰“å°
 
 int Read(void);
 
@@ -12,17 +12,17 @@ int main()
 	clock_t start, finish;
 	double duration;
 
-	start = clock();//¼ÆÊ±¿ªÊ¼
+	start = clock();//è®¡æ—¶å¼€å§‹
 
 	int **array;
 	int hang, i, j;
 
 	hang = Read();
-//³õÊ¼»¯Êı×é
+//åˆå§‹åŒ–æ•°ç»„
 	array = (int**)malloc(sizeof(int*)*hang);
 	for (i = 0; i < hang; i++)
 		array[i] = (int*)malloc(sizeof(int)*hang);
-//ÉèÎª01
+//è®¾ä¸º01
 	for ( i = 0; i < hang; i++)
 	{
 		for (j = 0; j < hang; j++)
@@ -33,7 +33,7 @@ int main()
 				array[i][j] = 0;
 		}
 	}
-//´òÓ¡
+//æ‰“å°
 	for ( i = 0; i < hang; i++)
 	{
 		for (j = 0; j < hang; j++)
@@ -46,7 +46,7 @@ int main()
 		printf("\n");
 	}
 
-	finish = clock();//¼ÆÊ±½áÊø
+	finish = clock();//è®¡æ—¶ç»“æŸ
 	duration = (double)(finish - start) / CLOCKS_PER_SEC;
 	printf("Time: %fms\n", duration * 1000);
 
@@ -62,11 +62,11 @@ int Read(void)
 	if (fp)
 	{
 		fscanf_s(fp, "%d", &hang);
-		printf("¶ÁÈëÍê±Ï\n");
+		printf("è¯»å…¥å®Œæ¯•\n");
 		fclose(fp);
 	}
 	else
-		printf("ÎŞ·¨´ò¿ªÎÄ¼ş\n");
+		printf("æ— æ³•æ‰“å¼€æ–‡ä»¶\n");
 
 	return hang;
 }

@@ -1,14 +1,14 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include<time.h>
 #include<Windows.h>
 
-//±±¾©Ê±¼ä×ª¸ñÁÖÍþÖÎÊ±¼ä
+//åŒ—äº¬æ—¶é—´è½¬æ ¼æž—å¨æ²»æ—¶é—´
 
 int main()
 {
 	int bjt;
 
-	printf("ÇëÊäÈë±±¾©Ê±¼ä£º");
+	printf("è¯·è¾“å…¥åŒ—äº¬æ—¶é—´ï¼š");
 	scanf_s("%d",&bjt);
 
 	if ((bjt/100-8)>=0)

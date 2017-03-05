@@ -1,6 +1,6 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
-//¹¹ÔìnumberOfKnownPrimesÒÔÄÚµÄËØÊı±í
+//æ„é€ numberOfKnownPrimesä»¥å†…çš„ç´ æ•°è¡¨
 int isPrime(int x, int knownPrimes[], int numberOfKnownPrimes)
 {
 	int ret = 1;

@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include<time.h>
 #include<Windows.h>
 
@@ -11,9 +11,9 @@ int main(int argc, char const *argv[])
 	int b = 0, weishu = 0, shang = 0, count = 0;
 
 	scanf_s("%d/%d", &weishu, &b);
-	start = clock();//¼ÆÊ±¿ªÊ¼
+	start = clock();//è®¡æ—¶å¼€å§‹
 	printf("0.");
-//whileÓëforÁ½ÖÖĞÎÊ½£¬ÔÚ¼ÆËã16/19Ê±whileÉÙ2ms
+//whileä¸forä¸¤ç§å½¢å¼ï¼Œåœ¨è®¡ç®—16/19æ—¶whileå°‘2ms
 	while (count != 200)
 	{
 		weishu *= 10;
@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
 
 	printf("\n");
 
-	finish = clock();//¼ÆÊ±½áÊø
+	finish = clock();//è®¡æ—¶ç»“æŸ
 	duration = (double)(finish - start) / CLOCKS_PER_SEC;
 	printf("Time: %fms\n", duration*1000);
 

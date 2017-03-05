@@ -1,5 +1,5 @@
-#include<stdio.h>
-//0-9³öÏÖÁË¶àÉÙ´Î£¬Êı×éÀ´×ö
+ï»¿#include<stdio.h>
+//0-9å‡ºç°äº†å¤šå°‘æ¬¡ï¼Œæ•°ç»„æ¥åš
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
 
 	for ( i = 0; i < number; i++)
 	{
-		count[i] = 0;//°ÑÃ¿Ò»¸öcount[]¶¼³õÊ¼»¯Îª0
+		count[i] = 0;//æŠŠæ¯ä¸€ä¸ªcount[]éƒ½åˆå§‹åŒ–ä¸º0
 	}
 
 	scanf_s("%d", &x);
@@ -19,14 +19,14 @@ int main()
 	{
 		if (x >= 0 && x <= 9)
 		{
-			count[x]++;//Õû¸öcount[]++£¬count[]ÊÇÒ»¸öÕûÌå£¬ÔÚÉÏÒ»¸öforÖĞ³õÊ¼»¯ÁËÎª0
+			count[x]++;//æ•´ä¸ªcount[]++ï¼Œcount[]æ˜¯ä¸€ä¸ªæ•´ä½“ï¼Œåœ¨ä¸Šä¸€ä¸ªforä¸­åˆå§‹åŒ–äº†ä¸º0
 		}
 		scanf_s("%d", &x);
 	}
 
 	for ( i = 0; i < number; i++)
 	{
-		printf("%d:%d¸ö\n", i, count[i]);//¸÷×Ô´òÓ¡
+		printf("%d:%dä¸ª\n", i, count[i]);//å„è‡ªæ‰“å°
 	}
 
 return 0;
