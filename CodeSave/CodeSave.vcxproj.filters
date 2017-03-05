@@ -48,5 +48,20 @@
     <ClCompile Include="打印X.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数组越界初探.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="某一数在数组中的哪一位置上.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="忘了干嘛的，关于素数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="逗号简易运用for.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

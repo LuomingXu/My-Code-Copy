@@ -56,10 +56,12 @@ int main()
 int Read(void)
 {
 	int hang = 0;
-	FILE *fp = fopen("c:\\wenjian.txt", "r");
+	FILE *fp;
+
+	fopen_s(&fp,"c:\\wenjian.txt", "r");
 	if (fp)
 	{
-		fscanf(fp, "%d", &hang);
+		fscanf_s(fp, "%d", &hang);
 		printf("∂¡»ÎÕÍ±œ\n");
 		fclose(fp);
 	}

@@ -89,7 +89,7 @@ int another(void)
 	{
 		for ( j = 0; j < 2; j++)
 		{
-			scanf("%d", &num);
+			scanf_s("%d", &num);
 			array[i][j] = num;
 			if (num == 0)
 				stop++;

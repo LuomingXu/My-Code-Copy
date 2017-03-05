@@ -155,8 +155,13 @@
     <ClCompile Include="多项式输入，输出.c" />
     <ClCompile Include="奇偶数个数.c" />
     <ClCompile Include="打印X.c" />
+    <ClCompile Include="数组越界初探.c" />
+    <ClCompile Include="某一数在数组中的哪一位置上.c" />
     <ClCompile Include="求第n个素数到第m个的和,外引flag做判断.c" />
+    <ClCompile Include="源.c" />
     <ClCompile Include="精确计算小数.c" />
+    <ClCompile Include="忘了干嘛的，关于素数.c" />
+    <ClCompile Include="逗号简易运用for.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
