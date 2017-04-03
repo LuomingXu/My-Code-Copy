@@ -60,7 +60,10 @@
     <ClCompile Include="逗号简易运用for.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.c">
+    <ClCompile Include="字符串排序，二维字符串数组初级尝试.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试用.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
